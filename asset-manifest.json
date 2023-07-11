@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-react-textbook-redux-selectors/static/css/main.aaaf48ca.css",
+    "main.js": "/goit-react-textbook-redux-selectors/static/js/main.f710d13e.js",
+    "index.html": "/goit-react-textbook-redux-selectors/index.html",
+    "main.aaaf48ca.css.map": "/goit-react-textbook-redux-selectors/static/css/main.aaaf48ca.css.map",
+    "main.f710d13e.js.map": "/goit-react-textbook-redux-selectors/static/js/main.f710d13e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaaf48ca.css",
+    "static/js/main.f710d13e.js"
+  ]
+}
