@@ -3,7 +3,7 @@ import css from './Task.module.css';
 
 import { useDispatch } from 'react-redux';
 // Импортируем генератор экшена
-import { deleteTask, toggleCompleted } from '../../redux/actions';
+import { deleteTask, toggleCompleted } from 'redux/operations';
 
 export const Task = ({ task }) => {
   // Получаем ссылку на функцию отправки экшенов
@@ -14,7 +14,7 @@ export const Task = ({ task }) => {
 
   // Вызываем генератор экшена и передаём идентификатор задачи
   // Отправляем результат - экшен переключения статуса задачи
-  const handleToggle = () => dispatch(toggleCompleted(task.id));
+  const handleToggle = () => dispatch(toggleCompleted(task));
 
   return (
     <div className={css.wrapper}>
